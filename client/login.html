@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>I Love Game</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation -->
+        <nav>
+            <a class="home" href="#"> <img src="./images/logo.png" alt="logo"> </a>
+            <a href="#">Catalog</a>
+            <!-- Logged-in users -->
+            <div id="user">
+                <a href="#">Add Game</a>
+                <a href="#">Logout</a>
+            </div>
+            <!-- Guest users -->
+            <div id="guest">
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Login Page ( Only for Guest users ) -->
+    <section id="login-page">
+
+        <form id="login">
+            <div class="container">
+                <h1>Login</h1>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your Email">
+
+                <label for="login-pass">Password</label>
+                <input type="password" id="login-password" name="password" placeholder="Password">
+                <input type="submit" class="btn submit" value="Login">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <p class="center-text">React Course Exercise @ SoftUni &trade;</p>
+    </footer>
+
+</body>
+
+</html>

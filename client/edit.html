@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>I Love Game</title>
+</head>
+
+<body>
+   
+
+        <header>
+            <!-- Navigation -->
+            <nav>
+                <a class="home" href="#"> <img src="./images/logo.png" alt="logo"> </a>
+                <a href="#">Catalog</a>
+                <!-- Logged-in users -->
+                <div id="user">
+                    <a href="#">Add Game</a>
+                    <a href="#">Logout</a>
+                </div>
+                <!-- Guest users -->
+                <div id="guest">
+                    <a href="#">Login</a>
+                    <a href="#">Register</a>
+                </div>
+            </nav>
+        </header>
+
+        <!-- add Page ( Only for logged-in users ) -->
+        <section id="edit-page">
+            <form id="add-new-game">
+                <div class="container">
+
+                    <h1>Edit Game</h1>
+
+                    <div class="form-group-half">
+                        <label for="gameName">Game Name:</label>
+                        <input type="text" id="gameName" name="gameName" placeholder="Enter game title...">
+                    </div>
+
+                    <div class="form-group-half">
+                        <label for="genre">Genre:</label>
+                        <input type="text" id="genre" name="genre" placeholder="Enter game genre...">
+                    </div>
+
+                    <div class="form-group-half">
+                        <label for="activePlayers">Active Players:</label>
+                        <input type="number" id="activePlayers" name="activePlayers" min="0" placeholder="0">
+                    </div>
+
+                    <div class="form-group-half">
+                        <label for="releaseDate">Release Date:</label>
+                        <input type="date" id="releaseDate" name="releaseDate">
+                    </div>
+
+                    <div class="form-group-full">
+                        <label for="imageUrl">Image URL:</label>
+                        <input type="text" id="imageUrl" name="imageUrl" placeholder="Enter image URL...">
+                    </div>
+
+                    <div class="form-group-full">
+                        <label for="summary">Summary:</label>
+                        <textarea name="summary" id="summary" rows="5"
+                            placeholder="Write a brief summary..."></textarea>
+                    </div>
+
+                    <input class="btn submit" type="submit" value="EDIT GAME">
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <p class="center-text">React Course Exercise @ SoftUni &trade;</p>
+        </footer>
+</body>
+
+</html>
