@@ -1,10 +1,12 @@
 import { Route, Routes } from "react-router";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
     return (
         <>
             <Header />
+
             {/* <!-- Home Page --> */}
             <section id="welcome-world">
                 <div className="welcome-message">
@@ -52,9 +54,7 @@ function App() {
                 </div>
             </section>
 
-            <footer>
-                <p className="center-text">React Course Exercise @ SoftUni &trade;</p>
-            </footer>
+            <Footer />
         </>
     );
 }
