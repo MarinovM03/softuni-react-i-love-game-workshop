@@ -1,7 +1,6 @@
 export default function Header() {
     return (
-        <>
-            <header>
+        <header>
                 {/* <!-- Navigation --> */}
                 <nav>
                     <a className="home" href="#">
@@ -19,7 +18,6 @@ export default function Header() {
                         <a href="#">Register</a>
                     </div>
                 </nav>
-            </header>
-        </>
+        </header>
     );
 }
