@@ -1,6 +1,6 @@
 {
     "5c7d8f0e-3a9b-4c2d-9e1f-6a4b3c8d2e7a": {
-        "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
+        "_id": "5c7d8f0e-3a9b-4c2d-9e1f-6a4b3c8d2e7a",
         "title": "The Witcher 3",
         "genre": "Open World",
         "players": 32000,
@@ -10,7 +10,7 @@
         "_createdOn": 1617194350000
     },
     "7b9a2c4f-1d5e-4b6c-8a3d-2f1e0g3h4i5j": {
-        "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+        "_id": "7b9a2c4f-1d5e-4b6c-8a3d-2f1e0g3h4i5j",
         "title": "Elden Ring",
         "genre": "Action RPG",
         "players": 105000,
@@ -20,7 +20,7 @@
         "_createdOn": 1645708800000
     },
     "3d4e5f6g-7h8i-9j0k-1l2m-3n4o5p6q7r8s": {
-        "_ownerId": "35c62d76-8152-4626-8712-eeb96381bea8",
+        "_id": "3d4e5f6g-7h8i-9j0k-1l2m-3n4o5p6q7r8s",
         "title": "Minecraft",
         "genre": "Sandbox",
         "players": 1400000,
@@ -30,7 +30,7 @@
         "_createdOn": 1617194450000
     },
     "9f8e7d6c-5b4a-3c2d-1e0f-9g8h7i6j5k4l": {
-        "_ownerId": "847ec027-f659-4086-8032-5173e2f9c93a",
+        "_id": "9f8e7d6c-5b4a-3c2d-1e0f-9g8h7i6j5k4l",
         "title": "Cyberpunk 2077",
         "genre": "Action RPG",
         "players": 85000,
