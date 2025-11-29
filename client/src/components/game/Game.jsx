@@ -1,5 +1,7 @@
+import { Link } from "react-router";
+
 export default function Game({
-    // _id,
+    _id,
     title,
     genre,
     imageUrl,
@@ -10,7 +12,7 @@ export default function Game({
             <div className="details-overlay">
                 <p className="name">{title}</p>
                 <p className="genre">{genre}</p>
-                <a href="#" className="details-button">Details</a>
+                <Link to={`/games/${_id}/details`} className="details-button">Details</Link>
             </div>
         </div>
     );
