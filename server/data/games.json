@@ -38,5 +38,15 @@
         "imageUrl": "/images/cyberpunk.png",
         "summary": "An open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality.",
         "_createdOn": 1607558400000
+    },
+    "312507e3-c90d-4e1a-a0ac-aa861c93be1e": {
+        "_id": "312507e3-c90d-4e1a-a0ac-aa861c93be1e",
+        "title": "League of Legends",
+        "genre": "Multiplayer online battle arena",
+        "players": 2200000,
+        "date": "2009-10-27",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRw9Lvtelh34ghPjMj74VxTHVWTpGHHSKOpwXgt9tRiovgzjaow",
+        "summary": "It features a team-based competitive game mode based on strategy and outplaying opponents. Players work with their team to break the enemy Nexus before the enemy team breaks theirs. League of Legends is a complex game which involves both high-level strategy and fast-paced gameplay.",
+        "_createdOn": 1764513517875
     }
 }

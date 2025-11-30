@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import GameCard from "../game-card/GameCard";
 
-const BASE_URL = 'http://localhost:3030/jsonstore/games';
+const baseUrl = 'http://localhost:3030/jsonstore/games';
 
 export default function Catalog() {
     const [games, setGames] = useState([]);
@@ -9,7 +9,7 @@ export default function Catalog() {
     useEffect(() => {
         (async () => {
             try {
-                const response = await fetch(BASE_URL);
+                const response = await fetch(baseUrl);
                 const result = await response.json();
     
                 setGames(Object.values(result));
