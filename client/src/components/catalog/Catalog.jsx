@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Game from "../game/Game";
+import GameCard from "../game-card/GameCard";
 
 const BASE_URL = 'http://localhost:3030/jsonstore/games';
 
@@ -26,7 +26,7 @@ export default function Catalog() {
             {games.length === 0 && <h3 className="no-articles">No Added Games Yet</h3>}
 
             <div className="catalog-container">
-                {games.map(game => <Game key={game._id} {...game} />)}
+                {games.map(game => <GameCard key={game._id} {...game} />)}
             </div>
 
         </section>
