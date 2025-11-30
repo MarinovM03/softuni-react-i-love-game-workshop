@@ -13,22 +13,21 @@ export default function CreateGame() {
         data.players = Number(data.players);
         data._createdOn = Date.now();
 
-        // try {
-            
-        // } catch (err) {
-            
-        // }
-        const response = await fetch('http://localhost:3030/jsonstore/games', {
-            method: 'POST',
-            headers: {
-                'content-type': 'application/json'
-            },
-            body: JSON.stringify(data),
-        })
-        const result = await response.json();
-        console.log(result);
-        
-        navigate('/games');
+        try {
+            const response = await fetch('http://localhost:3030/jsonstore/games', {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(data),
+            })
+            const result = await response.json();
+            console.log(result);
+
+            navigate('/games');
+        } catch (err) {
+            alert(err.message);
+        }
     };
 
     return (
