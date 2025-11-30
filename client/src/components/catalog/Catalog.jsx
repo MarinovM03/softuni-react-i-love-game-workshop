@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import GameCard from "../game-card/GameCard";
-
-const baseUrl = 'http://localhost:3030/jsonstore/games';
+import baseUrl from "../../utils/baseUrl";
 
 export default function Catalog() {
     const [games, setGames] = useState([]);

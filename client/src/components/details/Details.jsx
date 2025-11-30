@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { Link, Navigate, useNavigate, useParams } from "react-router";
-
-const baseUrl = 'http://localhost:3030/jsonstore/games';
+import { Link, useNavigate, useParams } from "react-router";
+import baseUrl from "../../utils/baseUrl";
 
 export default function Details() {
     const navigate = useNavigate();

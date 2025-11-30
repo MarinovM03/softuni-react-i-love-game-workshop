@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import baseUrl from "../../utils/baseUrl";
 
 export default function CreateGame() {
     const navigate = useNavigate();
@@ -14,7 +15,7 @@ export default function CreateGame() {
         data._createdOn = Date.now();
 
         try {
-            const response = await fetch('http://localhost:3030/jsonstore/games', {
+            const response = await fetch(`${baseUrl}`, {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
